@@ -1,0 +1,6 @@
+For me the push and pop worked most of the time immedietly,
+so if you wish to see that the exchange proccess with the exchanger array works fine, you can uncomment the 269 command "usleep(100000);".
+
+I also did: "using Order=int" because when i put a pop into the exchanger I use as order_id the: "PUSH_VALID=-10" value to distinguish it from a push.
+
+Also at the end after the requested outputs have been printed , you can uncomment the lines 661 to 669 to check that all the orders are in each client's list and also ordered!
